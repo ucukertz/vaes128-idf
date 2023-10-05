@@ -1,0 +1,29 @@
+{
+    "env": {
+        "idf-path-win32": "${workspaceFolder}/../../idf/4.4",
+        "idf-path-linux": "${workspaceFolder}/../../idf/4.4"
+    },
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${idf-path-linux}/components/**",
+                "${idf-path-linux}/components/freertos/include/freertos/*",
+                "${idf-path-linux}/components/lwip/include/apps/sntp"
+            ],
+            "intelliSenseMode": "${default}"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${idf-path-win32}/components/**",
+                "${idf-path-win32}/components/freertos/include/freertos/*",
+                "${idf-path-win32}/components/lwip/include/apps/sntp"
+            ],
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}
