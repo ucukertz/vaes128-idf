@@ -1,1 +1,1 @@
-# VAES128 encryption
+# VAES128 encryption for ESP-IDF
