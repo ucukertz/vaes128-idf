@@ -5,6 +5,7 @@
 #include <string.h>
 
 #include <esp_system.h>
+#include <esp_random.h>
 #include <esp_log.h>
 
 #include <freertos/FreeRTOS.h>
